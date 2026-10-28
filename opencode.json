@@ -9,5 +9,18 @@
     { "action": "shell", "resource": "git commit*", "effect": "deny" },
     { "action": "shell", "resource": "git push*", "effect": "deny" },
     { "action": "webfetch", "resource": "*", "effect": "ask" }
-  ]
+  ],
+  "mcp": {
+    "servers": {
+      "context7": {
+        "type": "remote",
+        "url": "https://mcp.context7.com/mcp",
+        "oauth": false
+      },
+      "deepwiki": {
+        "type": "remote",
+        "url": "https://mcp.deepwiki.com/mcp"
+      }
+    }
+  }
 }
